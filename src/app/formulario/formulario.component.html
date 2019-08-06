@@ -1,0 +1,85 @@
+<div class="shadow-sm p-3 mb-5 bg-white rounded">
+    <h1>Cadastro de Pessoa</h1>
+</div>
+<div class="card mt-5">
+    <div class="card-body">
+        <form>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="pessoa">Nome</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="pessoa"
+                        placeholder="Nome Pessoa"
+                    >
+                </div>
+                <div class="form-group col">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="sobrenome"
+                        placeholder="Sobrenome Pessoa"
+                    >
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="endereco"
+                    placeholder="Endereço"
+                >
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="cidade">Cidade</label>
+                    <select
+                        id="estado"
+                        class="form-control"
+                    >
+                        <option selected>Selecione...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="estado">Estado</label>
+                    <select
+                        id="estado"
+                        class="form-control"
+                    >
+                        <option selected>Selecione...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="nasc">Data de Nascimento</label>
+                    <input
+                        type="date"
+                        class="form-control"
+                        id="nasc"
+                    >
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="nasc">CPF/CNPJ</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="nasc"
+                        placeholder="CPF ou CNPJ"
+                    >
+                </div>
+            </div>
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                Salvar
+            </button>
+        </form>
+    </div>
+</div>
